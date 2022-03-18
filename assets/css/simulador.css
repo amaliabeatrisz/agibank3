@@ -22,3 +22,8 @@
     width: 80%;
     max-width: 744px;
 }
+@media (max-width: 768px){
+    .simule h4{
+        width: 80%;
+    }
+}

@@ -19,3 +19,9 @@
     justify-content: center;
     padding: 150px 0;
 }
+
+@media (max-width: 768px){
+    .oque-content{
+        width: 80%;
+    }
+}

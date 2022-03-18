@@ -123,5 +123,16 @@
 .map{
     width: 100%;
 }
-
+@media (max-width: 768px){
+    .faq{
+        flex-direction: column;
+    }
+    .faq-text{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .faq-container{
+        width: 100%;
+    }
+}
 

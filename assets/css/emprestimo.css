@@ -50,3 +50,24 @@
 .emprestimo-content{
     width: 40%;
 }
+
+@media (max-width: 768px){
+    .emprestimo img{
+        width: 50%;
+    }
+    .emprestimo{
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 425px){
+    .emprestimo{
+        flex-direction: column;
+    }
+    .emprestimo img{
+        width: 80%;
+    }
+    .emprestimo-content{
+        width: 80%;
+    }
+}
