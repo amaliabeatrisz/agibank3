@@ -1,0 +1,24 @@
+.simule h2{
+    color: #020101;
+    font-family: "Montserrat", Sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+}
+.simule h4{
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #020101;
+    width: 60%;
+}
+.simule{
+    text-align: center;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.simule img{
+    width: 80%;
+    max-width: 744px;
+}
