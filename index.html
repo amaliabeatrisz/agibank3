@@ -34,17 +34,17 @@
     <!-- Home -->
 
     <main class="home">
-        <div class="home-content">
+        <div class="home-content" data-aos="fade-right" data-aos-duration="2000">
             <h5>CREDITO CONSIGNADO RÁPIDO E DESCOMPLCADO</h5>
             <h1>Empréstimo Consignado Online</h1>
             <p>Com as melhores taxas, rápido e descomplicado para você aposentado e pensionista do INSS.</p>
             <a href="https://bit.ly/agicred1" class="solicite-btn">SOLICITE AGORA</a>
         </div>
-        <div class="home-right">
-            <div>
+        <div class="home-right" data-aos="fade-left" data-aos-duration="2000">
+            <div data-aos="fade-down" data-aos-duration="1000">
                 <img src="assets/img/homeIcon1.png" alt="" class="icon1">
             </div>
-            <div class="icone">
+            <div class="icone" data-aos="fade-down" data-aos-duration="1000">
                 <img src="assets/img/homeIcon2.png" alt="" class="icon2">
             </div>
         </div>
@@ -53,7 +53,7 @@
     <!-- cards -->
 
     <section class="card-container">
-        <div class="card">
+        <div class="card" data-aos="fade-right" data-aos-duration="500">
             <img src="assets/img/info.svg" alt="">
             <div class="card-content">
                 <h2>Mais Informações</h2>
@@ -62,7 +62,7 @@
             </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="fade-right" data-aos-duration="1500">
             <img src="assets/img/edit.svg" alt="">
             <div class="card-content">
                 <h2>Simule e contrate</h2>
@@ -71,7 +71,7 @@
             </div>
         </div>
 
-        <div class="card">
+        <div class="card" data-aos="fade-right" data-aos-duration="2000">
             <img src="assets/img/whatsapp.svg" alt="">
             <div class="card-content">
                 <h2>Falar com um operador</h2>
@@ -95,8 +95,8 @@
     <!-- emprestimo -->
 
     <section class="emprestimo">
-        <img src="assets/img/homem.png" alt="">
-        <div class="emprestimo-content">
+        <img src="assets/img/homem.png" alt="" data-aos="fade-up">
+        <div class="emprestimo-content" data-aos="fade-left">
             <h4>EMPRÉSTIMO CONSIGNADO DESCOMPLICADO</h4>
             <h2>O que é o margem consignável?</h2>
             <p>A margem consignável é a porcentagem de 30% do seu benefício do INSS ou salário que pode ser comprometida com contratos de empréstimo consignado.</p>
@@ -151,14 +151,14 @@
     <!-- FAQ -->
 
     <section class="faq">
-        <div class="faq-text">
+        <div class="faq-text" data-aos="fade-rigth">
             <h6>FAQ</h6>
             <h1>Perguntas Frequentes</h1>
             <p>Principais dúvidas para ajudar você</p>
         </div>
 
-        <div class="faq-container">
-            <div class="question1">
+        <div class="faq-container" data-aos="fade-left">
+            <div class="question1 active">
                 <div class="question-header h1" onclick="faqDrop1()">
                     <h3>Como recebo o primeiro pagamento do meu benefício</h3>
                     <img src="assets/img/seta.svg" alt="">
@@ -308,5 +308,9 @@
     </footer>
 
     <script src="assets/js/faq.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
